@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <ctype.h>
+#include <string>
 using namespace std;
 
 int main() {
