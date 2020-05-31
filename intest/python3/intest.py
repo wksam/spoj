@@ -1,7 +1,9 @@
-n, k = input().split(" ")
+import sys
+
+n, k = sys.stdin.readline().split(" ")
 count = 0
 for _ in range(int(n)):
-    t = int(input())
+    t = int(sys.stdin.readline())
     if t % int(k) == 0:
         count += 1
-print(count)
+sys.stdout.write(str(count))
