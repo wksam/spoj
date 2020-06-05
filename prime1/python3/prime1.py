@@ -1,8 +1,9 @@
+import sys
 import math
 
-t = input()
+t = sys.stdin.readline()
 for i in range(int(t)):
-    n = input().split(' ')
+    n = sys.stdin.readline().split(' ')
     low = int(n[0])
     high = int(n[1]) + 1
 
@@ -20,4 +21,4 @@ for i in range(int(t)):
             if j % k == 0:
                 break
         else:
-            print(j)
+            sys.stdout.write(str(j) + '\n')
